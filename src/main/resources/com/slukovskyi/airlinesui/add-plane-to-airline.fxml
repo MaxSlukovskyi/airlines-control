@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="132.0" prefWidth="206.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slukovskyi.airlinesui.AddPlaneToAirlineController">
+    <Label layoutX="28.0" layoutY="31.0" text="Виберіть авіакомпанію:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font></Label>
+    <Button fx:id="selectAirlineBtn" layoutX="63.0" layoutY="88.0" mnemonicParsing="false" onAction="#onSelectAirlineButtonClick" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #0f406e;" text="Вибрати" textFill="WHITE">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Button>
+    <ChoiceBox fx:id="airlinesChoiceBox" layoutX="28.0" layoutY="49.0" prefWidth="150.0" />
+</AnchorPane>

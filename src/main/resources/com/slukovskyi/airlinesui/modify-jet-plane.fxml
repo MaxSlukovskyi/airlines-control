@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slukovskyi.airlinesui.ModifyJetPlaneController">
+    <TextField fx:id="modifyJetPlaneNameInput" layoutX="28.0" layoutY="49.0" prefHeight="26.0" prefWidth="186.0" />
+    <Label layoutX="28.0" layoutY="31.0" text="Введіть назву:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="modifyJetPlaneSeatsNumberInput" layoutX="28.0" layoutY="100.0" prefHeight="26.0" prefWidth="186.0" />
+    <Label layoutX="28.0" layoutY="82.0" text="Введіть кількість місць:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="modifyJetPlaneCargoCapacityInput" layoutX="28.0" layoutY="151.0" prefHeight="26.0" prefWidth="186.0" />
+    <Label layoutX="28.0" layoutY="133.0" text="Введіть вантажопідйомність:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="modifyJetPlaneMaximumDistanceInput" layoutX="28.0" layoutY="202.0" prefHeight="26.0" prefWidth="186.0" />
+    <Label layoutX="28.0" layoutY="184.0" text="Введіть максимальну відстань:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="modifyJetPlaneFuelConsumptionInput" layoutX="28.0" layoutY="253.0" prefHeight="26.0" prefWidth="186.0" />
+    <Label layoutX="28.0" layoutY="235.0" text="Введіть споживання пального:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <ChoiceBox fx:id="modifyJetPlaneTypeChoiceBox" layoutX="28.0" layoutY="304.0" prefHeight="26.0" prefWidth="186.0" />
+    <Label layoutX="28.0" layoutY="286.0" text="Виберіть тип бізнес-джету:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <Button fx:id="modifyJetPlaneBtn" layoutX="60.0" layoutY="350.0" mnemonicParsing="false" onAction="#onModifyJetPlaneButtonClick" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: #0f406e;" text="Редагувати" textFill="WHITE">
+        <font>
+            <Font size="14.0" />
+        </font>
+        <graphic>
+            <ImageView fitHeight="15" fitWidth="15" pickOnBounds="true" preserveRatio="true">
+                <Image url="https://cdn-icons-png.flaticon.com/512/5972/5972923.png" />
+            </ImageView>
+        </graphic>
+    </Button>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="236.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slukovskyi.airlinesui.AboutController">
+    <ImageView fitHeight="100" fitWidth="100" layoutX="143.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="https://cdn-icons-png.flaticon.com/512/9586/9586738.png" />
+    </ImageView>
+    <Label alignment="CENTER" layoutX="118.0" layoutY="106.0" prefHeight="48.0" prefWidth="149.0" text="Airlines Control" textAlignment="CENTER">
+        <font>
+            <Font name="Digital-7 Mono" size="18.0" />
+        </font>
+    </Label>
+   <Label layoutX="56.0" layoutY="145.0" text="Програмний продукт розробив студент групи КН-11сп" />
+   <Label layoutX="177.0" layoutY="195.0" text="Львів" />
+   <Label layoutX="179.0" layoutY="213.0" text="2023" />
+   <Label layoutX="40.0" layoutY="164.0" text="Слуковський Максим." />
+</AnchorPane>

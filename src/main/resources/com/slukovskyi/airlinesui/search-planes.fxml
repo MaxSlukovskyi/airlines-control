@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="191.0" prefWidth="365.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slukovskyi.airlinesui.SearchPlanesController">
+    <Label layoutX="28.0" layoutY="31.0" text="Виберіть авіакомпанію:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font></Label>
+    <Button fx:id="searchPlanesBtn" layoutX="129.0" layoutY="138.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="101.0" onAction="#onSearchPlanesButtonClick" style="-fx-background-color: #0f406e;" text="Знайти" textFill="WHITE">
+        <font>
+            <Font size="14.0" />
+        </font>
+        <graphic>
+            <ImageView fitHeight="15" fitWidth="15" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="https://cdn-icons-png.flaticon.com/512/954/954591.png" />
+                </image>
+            </ImageView>
+        </graphic>
+    </Button>
+    <ChoiceBox fx:id="airlinesChoiceBox" layoutX="28.0" layoutY="49.0" prefHeight="26.0" prefWidth="306.0" />
+    <Label layoutX="28.0" layoutY="83.0" prefHeight="18.0" prefWidth="316.0" text="Введіть діапазон параметру споживання пального:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="minValueInput" layoutX="29.0" layoutY="101.0" prefHeight="26.0" prefWidth="149.0" />
+    <TextField fx:id="maxValueInput" layoutX="185.0" layoutY="101.0" prefHeight="26.0" prefWidth="149.0" />
+</AnchorPane>

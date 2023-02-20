@@ -1,0 +1,23 @@
+#airlines-menu-btn, #planes-menu-btn, #about-menu-btn {
+    -fx-background-color: #0e3254;
+}
+
+#passenger-planes-counter {
+    -fx-background-color: #588ab6;
+    -fx-border-radius: 5px;
+}
+
+#cargo-capacity-counter {
+    -fx-background-color: #f1b338;
+    -fx-border-radius: 5;
+}
+
+#total-seats-counter {
+    -fx-background-color: #5fc23c;
+    -fx-border-radius: 5;
+}
+
+#jet-planes-counter {
+    -fx-background-color: #f64f60;
+    -fx-border-radius: 5;
+}

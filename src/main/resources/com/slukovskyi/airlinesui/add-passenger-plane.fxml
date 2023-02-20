@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="addPassengerPlaneWindow" prefHeight="502.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slukovskyi.airlinesui.AddPassengerPlaneController">
+    <TextField fx:id="addPassengerPlaneNameInput" layoutX="28.0" layoutY="49.0" prefHeight="26.0" prefWidth="234.0" />
+    <Label layoutX="28.0" layoutY="31.0" text="Введіть назву літака:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="addPassengerPlaneSeatsNumberInput" layoutX="28.0" layoutY="100.0" prefHeight="26.0" prefWidth="234.0" />
+    <Label layoutX="28.0" layoutY="82.0" text="Введіть кількість місць:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="addPassengerPlaneCargoCapacityInput" layoutX="28.0" layoutY="151.0" prefHeight="26.0" prefWidth="234.0" />
+    <Label layoutX="28.0" layoutY="133.0" text="Введіть вантажопідйомність:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="addPassengerPlaneMaximumDistanceInput" layoutX="28.0" layoutY="202.0" prefHeight="26.0" prefWidth="234.0" />
+    <Label layoutX="28.0" layoutY="184.0" text="Введіть максимальну дистанцію:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="addPassengerPlaneFuelConsumptionInput" layoutX="28.0" layoutY="253.0" prefHeight="26.0" prefWidth="234.0" />
+    <Label layoutX="28.0" layoutY="235.0" text="Введіть споживання пального:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="addPassengerPlaneBusinessClassSeatsInput" layoutX="28.0" layoutY="304.0" prefHeight="26.0" prefWidth="234.0" />
+    <Label layoutX="28.0" layoutY="286.0" text="Введіть кількість місць бізнес-класу:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="addPassengerPlaneFirstClassSeatsInput" layoutX="28.0" layoutY="355.0" prefHeight="26.0" prefWidth="234.0" />
+    <Label layoutX="28.0" layoutY="337.0" text="Введіть кількість місць першого класу:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="addPassengerPlaneEconomyClassSeatsInput" layoutX="28.0" layoutY="406.0" prefHeight="26.0" prefWidth="234.0" />
+    <Label layoutX="28.0" layoutY="388.0" text="Введіть кількість місць економ-класу:">
+        <font>
+            <Font name="Corbel" size="14.0" />
+        </font>
+    </Label>
+    <Button fx:id="addPlaneBtn" layoutX="95.0" layoutY="452.0" mnemonicParsing="false" onAction="#onAddPassengerPlaneButtonClick" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: #0f406e;" text="Додати" textFill="WHITE">
+        <font>
+            <Font size="14.0" />
+        </font>
+        <graphic>
+            <ImageView fitHeight="20" fitWidth="20" pickOnBounds="true" preserveRatio="true">
+                <Image url="https://cdn-icons-png.flaticon.com/512/9135/9135940.png" />
+            </ImageView>
+        </graphic>
+    </Button>
+</AnchorPane>
